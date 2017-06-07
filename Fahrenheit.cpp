@@ -14,12 +14,12 @@ Fahrenheit::Fahrenheit(double v)
 
 double Fahrenheit::toCelsius()
 {
-	return (temp_in_Fahrenheit - 32) * (5 / 9);
+	return (temp_in_Fahrenheit - 32.0) * (5.0 / 9.0);
 }
 
 double Fahrenheit::toKelvin()
 {
-	return (temp_in_Fahrenheit + 459.67) * (5 / 9);
+	return (temp_in_Fahrenheit + 459.67) * (5.0 / 9.0);
 }
 
 double Fahrenheit::toRankine()
@@ -29,20 +29,20 @@ double Fahrenheit::toRankine()
 
 double Fahrenheit::toDelisle()
 {
-	return (212 - temp_in_Fahrenheit) * (5 / 6);
+	return (212.0 - temp_in_Fahrenheit) * (5.0 / 6.0);
 }
 
 double Fahrenheit::toNewton()
 {
-	return (temp_in_Fahrenheit - 32) * (11 / 60);
+	return (temp_in_Fahrenheit - 32.0) * (11.0 / 60.0);
 }
 
 double Fahrenheit::toReaumur()
 {
-	return (temp_in_Fahrenheit - 32) * (4 / 9);
+	return (temp_in_Fahrenheit - 32.0) * (4.0 / 9.0);
 }
 
 double Fahrenheit::toRomer()
 {
-	return ((temp_in_Fahrenheit - 32) * (7 / 24)) + 7.5;
+	return ((temp_in_Fahrenheit - 32.0) * (7.0 / 24.0)) + 7.5;
 }

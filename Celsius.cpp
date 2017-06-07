@@ -9,7 +9,7 @@ Celsius::Celsius(double v)
 
 double Celsius::toFahrenheit()
 {
-	return (temp_in_Celsius * (9 / 5)) + 32;
+	return (temp_in_Celsius * (9.0 / 5.0)) + 32.0;
 }
 
 double Celsius::toKelvin()
@@ -19,27 +19,27 @@ double Celsius::toKelvin()
 
 double Celsius::toRankine()
 {
-	return (temp_in_Celsius + 273.15) * (9 / 5);
+	return (temp_in_Celsius + 273.15) * (9.0 / 5.0);
 }
 
 double Celsius::toReaumur()
 {
-	return temp_in_Celsius * (4 / 5);
+	return temp_in_Celsius * (4.0 / 5.0);
 }
 
 double Celsius::toRomer()
 {
-	return (temp_in_Celsius * (21 / 40)) + 7.5;
+	return (temp_in_Celsius * (21.0 / 40.0)) + 7.5;
 }
 
 double Celsius::toDelisle()
 {
-	return (100 - temp_in_Celsius) * (3 / 2);
+	return (100 - temp_in_Celsius) * (3.0 / 2.0);
 }
 
 double Celsius::toNewton()
 {
-	return temp_in_Celsius * (33 / 100);
+	return temp_in_Celsius * (33.0 / 100.0);
 }
 
 
